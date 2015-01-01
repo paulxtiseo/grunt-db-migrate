@@ -21,6 +21,6 @@
     "url": "https://github.com/unknownexception/grunt-db-migrate/issues"
   },
   "dependencies": {
-    "db-migrate": "~0.6.3"
+    "node-pg-migrate": "0.0.7"
   }
 }
