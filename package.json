@@ -1,18 +1,19 @@
 {
-  "name": "grunt-db-migrate",
-  "version": "0.2.0",
-  "description": "Migrate database schema and data with db-migrate ",
+  "name": "grunt-node-pg-migrate",
+  "version": "0.1.0",
+  "description": "Migrate database schema and data with node-pg-migrate",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unknownexception/grunt-db-migrate"
+    "url": "https://github.com/paulxtiseo/node-pg-migrate"
   },
   "contributors": [
-    "emschwartz (https://github.com/emschwartz)",
-    "GeekyEggo (https://github.com/GeekyEggo)"
+    "emschwartz (https://github.com/paulxtiseo)",
+    "GeekyEggo (https://github.com/GeekyEggo)",
+    "paulxtiseo (https://github.com/paulxtiseo)"
   ],
   "author": "Dmitriy Loktev",
   "license": "MIT",

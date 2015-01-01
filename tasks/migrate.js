@@ -1,8 +1,9 @@
 /*
- * grunt-db-migrate
+ * grunt-node-pg-migrate
  * https://github.com/unknownexception/grunt-db-migrate
  *
  * Copyright (c) 2013 @unknownecxeption, @GeekyEggo, @emschwartz
+ * Modified by paulxtiseo
  * Licensed under the MIT license.
  */
 
@@ -17,7 +18,7 @@ module.exports = function (grunt) {
       spawnOpts = {
         stdio: 'inherit'
       },
-      args = [path.resolve(process.cwd() + '/node_modules/db-migrate/bin/db-migrate')];
+      args = [path.resolve(process.cwd() + '/node_modules/node-pg-migrate/bin/pg-migrate')];
 
     if (arg1)
       args.push(arg1);
