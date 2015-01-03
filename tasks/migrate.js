@@ -38,7 +38,9 @@ module.exports = function (grunt) {
       spawnOpts.env = process.env;
       var envProps = Object.keys(options.env);
       envProps.forEach(function (envProp) {
-        spawnOpts.env[envProp] = options.env[envProp];
+        if(options.env[envProp] !== undefined) {
+          spawnOpts.env[envProp] = options.env[envProp];
+        }
       });
     }
 
